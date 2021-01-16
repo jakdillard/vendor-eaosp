@@ -22,6 +22,7 @@
 # Get vendor modules here
 $(call inherit-product, vendor/eaosp/common/apps.mk)
 $(call inherit-product, vendor/eaosp/overlay/overlay.mk)
+$(call inherit-product, vendor/eaosp/bootanimation/bootanimation.mk)
 
 # Insert gapps here
 $(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
