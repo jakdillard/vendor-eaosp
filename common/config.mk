@@ -20,7 +20,6 @@
 # does, use base_product.mk).
 
 # Get vendor modules here
-$(call inherit-product, vendor/eaosp/common/apps.mk)
 $(call inherit-product, vendor/eaosp/overlay/overlay.mk)
 $(call inherit-product, vendor/eaosp/bootanimation/bootanimation.mk)
 
